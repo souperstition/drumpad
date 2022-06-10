@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/snap/static/js/main.9511f519.js",
+    "index.html": "/snap/index.html",
+    "main.9511f519.js.map": "/snap/static/js/main.9511f519.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9511f519.js"
+  ]
+}
