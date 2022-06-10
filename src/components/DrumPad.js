@@ -1,22 +1,26 @@
-import { Grid, GridItem, Center } from '@chakra-ui/react';
-import Button from './Button';
+import { useState } from 'react';
+import { Grid } from '@chakra-ui/react';
+import Pad from './Pad';
+import Display from './Display';
 
 const DrumPad = () => {
+	const [ active, setActive ] = useState('---');
+	const [ volume, setVolume ] = useState(0.65);
+
 	return (
-		<Grid w="80vw" h="50vh" templateColumns="repeat(6, 1fr)" templateRows="repeat(3, 1fr)" gap={6}>
-			<Button id="Q" />
-			<Button id="W" />
-			<Button id="E" />
+		<Grid templateColumns="repeat(6, 1fr)" templateRows="repeat(3, 1fr)" gap={{ base: '3', md: '6' }}>
+			<Pad code="Q" volume={volume} setActive={setActive} />
+			<Pad code="W" volume={volume} setActive={setActive} />
+			<Pad code="E" volume={volume} setActive={setActive} />
+			<Display active={active} setVolume={setVolume} />
 
-			<GridItem id="display" rowSpan={3} colSpan={3} bg="blue.500" />
+			<Pad code="A" volume={volume} setActive={setActive} />
+			<Pad code="S" volume={volume} setActive={setActive} />
+			<Pad code="D" volume={volume} setActive={setActive} />
 
-			<Button id="A" />
-			<Button id="S" />
-			<Button id="D" />
-
-			<Button id="Z" />
-			<Button id="X" />
-			<Button id="C" />
+			<Pad code="Z" volume={volume} setActive={setActive} />
+			<Pad code="X" volume={volume} setActive={setActive} />
+			<Pad code="C" volume={volume} setActive={setActive} />
 		</Grid>
 	);
 };

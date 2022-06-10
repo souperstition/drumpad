@@ -1,38 +1,47 @@
 export const ButtonList = [
 	{
 		key: 'Q',
-		sound: './sfx/hh-open.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/kick.mp3`,
+		desc: 'Kick'
 	},
 	{
 		key: 'W',
-		sound: './sfx/hh-closed.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/snare.mp3`,
+		desc: 'Snare'
 	},
 	{
 		key: 'E',
-		sound: './sfx/hh-pedal.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/rim.mp3`,
+		desc: 'Rimshot'
 	},
 	{
 		key: 'A',
-		sound: './sfx/kick.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/ride.mp3`,
+		desc: 'Ride'
 	},
 	{
 		key: 'S',
-		sound: './sfx/snare.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/crash.mp3`,
+		desc: 'Crash'
 	},
 	{
 		key: 'D',
-		sound: './sfx/tom.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/hh-pedal.mp3`,
+		desc: 'HH Pedal'
 	},
 	{
 		key: 'Z',
-		sound: './sfx/ride.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/tom.mp3`,
+		desc: 'Tom'
 	},
 	{
 		key: 'X',
-		sound: './sfx/crash.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/hh-closed.mp3`,
+		desc: 'Closed HH'
 	},
 	{
 		key: 'C',
-		sound: './sfx/rim.mp3'
+		sound: `${process.env.PUBLIC_URL}/sfx/hh-open.mp3`,
+		desc: 'Open HH'
 	}
 ];
