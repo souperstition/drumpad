@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/snap/static/js/main.9511f519.js",
-    "index.html": "/snap/index.html",
-    "main.9511f519.js.map": "/snap/static/js/main.9511f519.js.map"
+    "main.js": "/drumpad/static/js/main.7816514c.js",
+    "index.html": "/drumpad/index.html",
+    "main.7816514c.js.map": "/drumpad/static/js/main.7816514c.js.map"
   },
   "entrypoints": [
-    "static/js/main.9511f519.js"
+    "static/js/main.7816514c.js"
   ]
 }
