@@ -32,7 +32,7 @@ const Display = ({ active, setVolume }) => {
 				<Box w="100%" p="10%">
 					<Text
 						bg="light.200"
-						fontSize="4xl"
+						fontSize={{ base: '2xl', md: '4xl' }}
 						textAlign="center"
 						color="blue.400"
 						my="10"
