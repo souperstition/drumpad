@@ -1,7 +1,7 @@
 ## :bookmark_tabs: Table of Contents
 
 - [Purpose](#chart_with_upwards_trend-purpose-top)
-- [Project Setup](#🔎-project-setup-top)
+- [Project Setup](#-project-setup-top)
 - [Setting Up a Theme](#rainbow-setting-up-a-theme-top)
 - [Building the Components](#triangular_ruler-building-the-components-top)
 - [Creating the Audio Files](#headphones-creating-the-audio-files-top)
