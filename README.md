@@ -159,7 +159,7 @@ For each sound, I got an mp3 by clicking Save, then File -> Export -> Export pro
 
 Once I was done, I trimmed up the audio using [Audacity](https://www.audacityteam.org/) and saved everything in my public folder under a subfolder called *sfx*.
 
-## :thought_balloon: Logic [:top:](#bookmark_tabs-table-of-contents) {#logic}
+## :thought_balloon: Logic [:top:](#bookmark_tabs-table-of-contents)
 
 I first needed a place to store all of the data related to each key. I did that in an object called ButtonList:
 
